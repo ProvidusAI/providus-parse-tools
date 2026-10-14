@@ -1,0 +1,12 @@
+providus-parse-tools and providus-vl-mini
+Copyright 2026 Providus AI.
+
+providus-parse-tools extends mineru-vl-utils by OpenDataLab (Apache-2.0),
+https://github.com/opendatalab/mineru-vl-utils.
+
+providus-vl-mini is a fine-tune of MinerU2.5-Pro-2605-1.2B by OpenDataLab (Apache-2.0),
+https://huggingface.co/opendatalab/MinerU2.5-Pro-2605-1.2B (revision bff20d4). We did not pretrain a model.
+
+Online services: MinerU's project licence asks online services built on MinerU to say so. If you offer an online service with providus-vl-mini, please state in its interface or public documentation that it uses MinerU by OpenDataLab and providus-vl-mini by Providus AI. The licence terms of this work are those of Apache-2.0.
+
+If you redistribute this work or a derivative, keep this NOTICE file (Apache-2.0, Section 4(d)).

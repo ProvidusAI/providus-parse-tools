@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use providus-vl-mini or providus-parse-tools, please cite it as below. Please also cite MinerU2.5 and MinerU2.5-Pro."
+title: "providus-parse-tools"
+type: software
+version: 1.0.0
+license: Apache-2.0
+date-released: 2026-10-15
+repository-code: "https://github.com/ProvidusAI/providus-parse-tools"
+authors:
+  - name: "Providus AI"
+abstract: "providus-vl-mini is a fine-tune of MinerU2.5-Pro-2605-1.2B by OpenDataLab. providus-parse-tools is its document pipeline, built on mineru-vl-utils."
+references:
+  - type: article
+    title: "MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale"
+    authors:
+      - name: "Bin Wang"
+      - name: "Conghui He"
+      - name: "MinerU team, OpenDataLab"
+    year: 2026
+    notes: "arXiv:2604.04771"
+    url: "https://arxiv.org/abs/2604.04771"
+  - type: article
+    title: "MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing"
+    authors:
+      - family-names: Niu
+        given-names: Junbo
+      - name: "MinerU team, OpenDataLab"
+    year: 2025
+    notes: "arXiv:2509.22186"
+    url: "https://arxiv.org/abs/2509.22186"
+  - type: article
+    title: "ParseBench: A Document Parsing Benchmark for AI Agents"
+    authors:
+      - family-names: Zhang
+        given-names: Boyang
+      - family-names: Suo
+        given-names: Simon
+    year: 2026
+    notes: "arXiv:2604.08538"
+    url: "https://arxiv.org/abs/2604.08538"

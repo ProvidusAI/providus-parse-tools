@@ -1,0 +1,27 @@
+[project]
+name = "providus-parse-tools"
+version = "1.0.0"
+description = "providus-parse-tools: the document pipeline of providus-vl-mini, built on OpenDataLab's mineru-vl-utils"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.12"
+authors = [{ name = "Providus AI" }]
+dependencies = ["mineru-vl-utils==2.0.7", "pillow", "pypdfium2==5.13.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.urls]
+Repository = "https://github.com/ProvidusAI/providus-parse-tools"
+Model = "https://huggingface.co/ProvidusAI/providus-vl-mini"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["providus_parse"]
+package-dir = { providus_parse = "." }
+# The attribution files travel inside the package.
+package-data = { providus_parse = ["CITATION.cff", "NOTICE"] }
